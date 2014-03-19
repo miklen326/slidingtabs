@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MySlidingDrawer">
+        <!-- Identifier for the child that represents the drawer's handle. -->
+        <attr name="handle" format="reference" />
+        <!-- Identifier for the child that represents the drawer's content. -->
+        <attr name="content" format="reference" />
+        <!-- Extra offset for the handle at the bottom of the SlidingDrawer. -->
+        <attr name="bottomOffset" format="dimension"  />
+        <!-- Extra offset for the handle at the top of the SlidingDrawer. -->
+        <attr name="topOffset" format="dimension"  />
+        <!-- Indicates whether the drawer should be opened/closed with an animation
+             when the user clicks the handle. Default is true. -->
+        <attr name="animateOnClick" format="boolean" />
+        <attr name="rightTab" format="boolean" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+</resources>
